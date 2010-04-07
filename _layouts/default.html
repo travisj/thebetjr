@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<title>{{ site.name }} {% if page.title %} &raquo; {{ page.title }} {% endif %}</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<style type="text/css">
+		#main {
+			width: 600px;
+			margin: 0 auto;
+			}
+		#header {
+			text-align: center;
+			}
+		#header img, #header a img {
+			border: 0;
+			}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="header">
+		<a href="/"><img src="{{ site.url }}/images/bettingbaseball.jpg" /></a>
+	</div>
+<hr />
+{{ content }}
+</div>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/thebet/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
+</body>
+</html>

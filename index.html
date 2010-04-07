@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% for post in paginator.posts %}
+<div id="post-{{ post.id }}">
+    <h2><a href="{{ site.url }}{{ post.url }}">{{ post.date | date_to_string }}</a></h2>
+	{% include scores.markdown %}
+    <p> 
+        <a href="{{ site.url }}{{ post.url }}#disqus_thread">Comments</a>
+    </p>
+</div>
+{% endfor %}
+{% if paginator.previous_page %}
+{% if paginator.previous_page == 1 %}
+<a href="{{ site.url }}">Previous</a>
+{% else %}
+<a href="{{ site.url }}/page{{ paginator.previous_page }}">Previous</a>
+{% endif %}
+{% endif %}
+{% if paginator.next_page %}
+<a href="{{ site.url }}/page{{ paginator.next_page }}">Next</a>
+{% endif %}
+
