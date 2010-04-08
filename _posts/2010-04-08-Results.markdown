@@ -1,12 +1,12 @@
 ---
 layout: post
-smith: 10
+smith: 12
 johnson: 15
-pit: 0
+pit: 1
 phi: 2
 bal: 2
 bos: 1
-lad: 0
+lad: 1
 was: 2
 kan: 1
 tam: 2
