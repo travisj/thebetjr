@@ -1,15 +1,15 @@
 ---
 layout: post
-smith: 30
+smith: 32
 johnson: 35
 pit: 3
 phi: 6
-bal: 5
+bal: 6
 bos: 3
 lad: 2
 was: 4
 kan: 4
-tam: 3
+tam: 4
 nyy: 4
 cle: 5
 tor: 1
