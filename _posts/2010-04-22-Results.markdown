@@ -1,9 +1,9 @@
 ---
 layout: post
-smith: 72
+smith: 73
 johnson: 70
 pit: 8
-phi: 9
+phi: 10
 bal: 14
 bos: 6
 lad: 7
