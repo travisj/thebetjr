@@ -1,16 +1,16 @@
 ---
 layout: post
-smith: 117
-johnson: 118
+smith: 120
+johnson: 119
 pit: 15
-phi: 14
-bal: 19
-bos: 12
+phi: 15
+bal: 20
+bos: 13
 lad: 11
 was: 12
 kan: 16
 tam: 18
-nyy: 17
+nyy: 18
 cle: 15
 tor: 13
 stl: 18
