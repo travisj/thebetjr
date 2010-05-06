@@ -1,6 +1,6 @@
 ---
 layout: post
-smith: 125
+smith: 126
 johnson: 126
 pit: 15
 phi: 16
@@ -8,7 +8,7 @@ bal: 21
 bos: 14
 lad: 11
 was: 13
-kan: 16
+kan: 17
 tam: 19
 nyy: 19
 cle: 17
