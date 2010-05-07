@@ -1,11 +1,11 @@
 ---
 layout: post
-smith: 128
-johnson: 127
+smith: 129
+johnson: 128
 pit: 15
 phi: 17
 bal: 21
-bos: 14
+bos: 15
 lad: 11
 was: 13
 kan: 17
@@ -15,7 +15,7 @@ cle: 17
 tor: 13
 stl: 18
 min: 19
-hou: 18
+hou: 19
 atl: 12
 sdg: 11
 ---
