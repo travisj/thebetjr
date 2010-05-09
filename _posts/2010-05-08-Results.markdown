@@ -1,7 +1,7 @@
 ---
 layout: post
 smith: 138
-johnson: 134
+johnson: 136
 pit: 16
 phi: 18
 bal: 21
@@ -12,10 +12,10 @@ kan: 19
 tam: 22
 nyy: 21
 cle: 18
-tor: 13
+tor: 14
 stl: 19
 min: 19
-hou: 20
+hou: 21
 atl: 13
 sdg: 11
 ---
