@@ -1,12 +1,12 @@
 ---
 layout: post
-smith: 182
-johnson: 166
+smith: 183
+johnson: 167
 pit: 22
 phi: 24
 bal: 27
 bos: 19
-lad: 20
+lad: 21
 was: 19
 kan: 24
 tam: 27
@@ -15,7 +15,7 @@ cle: 21
 tor: 17
 stl: 22
 min: 24
-hou: 24
+hou: 25
 atl: 18
 sdg: 15
 ---
