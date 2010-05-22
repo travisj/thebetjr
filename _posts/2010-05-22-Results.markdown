@@ -1,14 +1,14 @@
 ---
 layout: post
-smith: 202
+smith: 204
 johnson: 187
 pit: 24
 phi: 26
-bal: 29
+bal: 30
 bos: 22
 lad: 24
 was: 22
-kan: 25
+kan: 26
 tam: 30
 nyy: 26
 cle: 25
