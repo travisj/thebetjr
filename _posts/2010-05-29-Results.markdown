@@ -1,12 +1,12 @@
 ---
 layout: post
-smith: 227
+smith: 228
 johnson: 212
 pit: 28
 phi: 27
 bal: 34
 bos: 27
-lad: 26
+lad: 27
 was: 24
 kan: 28
 tam: 33
