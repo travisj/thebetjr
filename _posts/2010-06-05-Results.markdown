@@ -1,0 +1,21 @@
+---
+layout: post
+smith: 0
+johnson: 0
+pit: 
+phi: 
+bal: 
+bos: 
+lad: 
+was: 
+kan: 
+tam: 
+nyy: 
+cle: 
+tor: 
+stl: 
+min: 
+hou: 
+atl: 
+sdg: 
+---
