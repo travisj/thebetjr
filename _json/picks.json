@@ -19,15 +19,15 @@
 		"owner": "smith",
 		"choice": "w"
 	},
-	"was": {
+	"wsh": {
 		"owner": "smith",
 		"choice": "l"
 	},
-	"kan": {
+	"kc": {
 		"owner": "smith",
 		"choice": "l"
 	},
-	"tam": {
+	"tb": {
 		"owner": "smith",
 		"choice": "w"
 	},
@@ -59,7 +59,7 @@
 		"owner": "johnson",
 		"choice": "w"
 	},
-	"sdg": {
+	"sd": {
 		"owner": "johnson",
 		"choice": "l"
 	}
