@@ -1,6 +1,6 @@
 ---
 layout: post
-smith: 306
+smith: 307
 johnson: 287
 pit: 41
 phi: 32
@@ -9,7 +9,7 @@ bos: 38
 lad: 37
 wsh: 34
 kc: 37
-tb: 40
+tb: 41
 nyy: 41
 cle: 38
 tor: 31
