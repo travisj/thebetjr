@@ -1,13 +1,13 @@
 ---
 layout: post
-smith: 325
+smith: 324
 johnson: 298
 pit: 44
 phi: 35
 bal: 49
 bos: 41
 lad: 38
-wsh: 38
+wsh: 37
 kc: 39
 tb: 41
 nyy: 42
