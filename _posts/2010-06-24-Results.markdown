@@ -1,8 +1,8 @@
 ---
 layout: post
-smith: 341
+smith: 340
 johnson: 318
-pit: 46
+pit: 45
 phi: 37
 bal: 52
 bos: 43
