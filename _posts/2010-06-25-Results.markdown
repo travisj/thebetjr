@@ -1,11 +1,11 @@
 ---
 layout: post
-smith: 343
+smith: 345
 johnson: 321
-pit: 46
+pit: 47
 phi: 38
 bal: 52
-bos: 43
+bos: 44
 lad: 38
 wsh: 40
 kc: 43
