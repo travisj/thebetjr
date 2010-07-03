@@ -65,7 +65,8 @@ class TheBet
 		g = Grit::Repo.new(@dir)
 		g.add('.')
 		g.commit_index('commit')
-		g.push
+		cmd = "push origin gh-pages"
+		g.repo.git.run('', cmd, '', {}, "")
 	end
 end
 
