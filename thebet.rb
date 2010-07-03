@@ -66,7 +66,7 @@ class TheBet
 		g.add('.')
 		g.commit_index('commit')
 		cmd = "push origin gh-pages"
-		g.repo.git.run('', cmd, '', {}, "")
+		g.git.run('', cmd, '', {}, "")
 	end
 end
 
