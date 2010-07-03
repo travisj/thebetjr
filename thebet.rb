@@ -81,7 +81,7 @@ class TheBet
 
 		status = [] 
 		@history[@date].each do |owner, score|
-			status[] = "#{@players[owner]['name']}: #{score}"
+			status << "#{@players[owner]['name']}: #{score}"
 		end
 
 		msg = status.join(' & ')
