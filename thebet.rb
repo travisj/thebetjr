@@ -84,6 +84,7 @@ class TheBet
 
 	def update_twitter
 		return false unless score_changed?
+		puts 'does not get here'
 
 		status = [] 
 		@history[@date].each do |owner, score|
