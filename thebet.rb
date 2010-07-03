@@ -25,9 +25,13 @@ class TheBet
 	private 
 
 	def score_changed?
-		puts @history[@date].to_json
-		puts @todays_score.to_json
 		@history[@date].to_json != @todays_score.to_json
+		total = 0
+		@history[@date].each {|o,s| total += s}
+		@todays_score.each {|o,s| total -= s}
+		pust total
+
+		total != 0
 	end
 
 	def load_json_configs
