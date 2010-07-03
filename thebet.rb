@@ -25,6 +25,8 @@ class TheBet
 	private 
 
 	def score_changed?
+		puts @history[@date].to_json
+		puts @todays_score.to_json
 		@history[@date].to_json != @todays_score.to_json
 	end
 
@@ -85,11 +87,10 @@ class TheBet
 		end
 
 		msg = status.join(' & ')
-		puts msg
 
 		httpauth = Twitter::HTTPAuth.new('thebet', 'y4nk33s')
 		base = Twitter::Base.new(httpauth)
-		base.update()
+		base.update(msg)
 	end
 end
 
