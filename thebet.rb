@@ -80,7 +80,7 @@ class TheBet
 		return false unless score_changed?
 
 		status = [] 
-		@scores[@date].each do |owner, score|
+		@history[@date].each do |owner, score|
 			status[] = "#{@players[owner]['name']}: #{score}"
 		end
 
