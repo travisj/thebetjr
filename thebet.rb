@@ -92,9 +92,13 @@ class TheBet
 
 		msg = status.join(' & ')
 
-		httpauth = Twitter::HTTPAuth.new('thebet', 'y4nk33s')
-		base = Twitter::Base.new(httpauth)
-		base.update(msg)
+		begin
+			httpauth = Twitter::HTTPAuth.new('thebet', 'y4nk33s')
+			base = Twitter::Base.new(httpauth)
+			base.update(msg)
+		rescue
+			# do nothing
+		end
 	end
 end
 
