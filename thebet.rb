@@ -29,7 +29,7 @@ class TheBet
 		total = 0
 		@history[@date].each {|o,s| total += s}
 		@todays_score.each {|o,s| total -= s}
-		pust total
+		puts total
 
 		total != 0
 	end
