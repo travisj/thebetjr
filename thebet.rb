@@ -3,6 +3,7 @@
 require 'json'
 require 'net/http'
 require 'grit'
+require 'twitter'
 
 class TheBet
 	attr_reader :dir
@@ -18,15 +19,22 @@ class TheBet
 		get_current_standings
 		write_files
 		send_to_git
+		update_twitter
 	end
 
 	private 
+
+	def score_changed?
+		@history[@date].to_json != @todays_score.to_json
+	end
 
 	def load_json_configs
 		@teams = JSON.parse(IO.read(@dir + '/_json/teams.json'))
 		@picks = JSON.parse(IO.read(@dir + '/_json/picks.json'))
 		@players = JSON.parse(IO.read(@dir + '/_json/players.json'))
 		@history = JSON.parse(IO.read(@dir + '/_json/history.json'))
+
+		@todays_score = @history[@date]
 
 		@players.each do |key, value|
 			@scores[key] = 0
@@ -66,6 +74,22 @@ class TheBet
 		g.add('.')
 		g.commit_index('commit')
 		g.git.run('', "push origin gh-pages", '', {}, "")
+	end
+
+	def update_twitter
+		return false unless score_changed?
+
+		status = [] 
+		@scores[@date].each do |owner, score|
+			status[] = "#{@players[owner]['name']}: #{score}"
+		end
+
+		msg = status.join(' & ')
+		puts msg
+
+		httpauth = Twitter::HTTPAuth.new('thebet', 'y4nk33s')
+		base = Twitter::Base.new(httpauth)
+		base.update()
 	end
 end
 
