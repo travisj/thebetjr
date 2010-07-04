@@ -1,21 +1,21 @@
 ---
 layout: post
-smith: 0
-johnson: 0
-pit: 
-phi: 
-bal: 
-bos: 
-lad: 
-wsh: 
-kc: 
-tb: 
-nyy: 
-cle: 
-tor: 
-stl: 
-min: 
-hou: 
-atl: 
-sd: 
+johnson: 345
+smith: 370
+stl: 43
+wsh: 45
+tor: 39
+kc: 45
+bal: 53
+hou: 48
+atl: 46
+tb: 45
+nyy: 47
+lad: 43
+pit: 51
+sd: 32
+phi: 41
+cle: 47
+bos: 47
+min: 43
 ---

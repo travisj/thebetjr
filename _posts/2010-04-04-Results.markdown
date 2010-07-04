@@ -1,0 +1,7 @@
+---
+layout: post
+johnson: 0
+smith: 1
+nyy: 0
+bos: 1
+---
