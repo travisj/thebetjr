@@ -4,7 +4,7 @@
 <p>Winners:
 	<ul>
 		<li>Boston Red Sox: {{ post.bos }}</li>
-		<li>Tampa Bay Rays: {{ post.tam }}</li>
+		<li>Tampa Bay Rays: {{ post.tp }}</li>
 		<li>Philadelphia Phillies: {{ post.phi }}</li>
 		<li>Los Angeles Dodgers: {{ post.lad }}</li>
 	</ul>
@@ -14,7 +14,7 @@
 		<li>Baltimore Orioles: {{ post.bal }}</li>
 		<li>Kansas City Royals: {{ post.kan }}</li>
 		<li>Pittsburgh Pirates: {{ post.pit }}</li>
-		<li>Washington: {{ post.was }}</li>
+		<li>Washington: {{ post.wsh }}</li>
 	</ul>
 </p>
 </div>
@@ -33,7 +33,7 @@
 		<li>Toronto Blue Jays: {{ post.tor }}</li>
 		<li>Cleveland Indians: {{ post.cle }}</li>
 		<li>Houston Astros: {{ post.hou }}</li>
-		<li>San Diego Padres: {{ post.sdg }}</li>
+		<li>San Diego Padres: {{ post.sd }}</li>
 	</ul>
 </p>
 </div>
