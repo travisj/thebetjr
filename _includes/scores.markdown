@@ -4,7 +4,7 @@
 <p>Winners:
 	<ul>
 		<li>Boston Red Sox: {{ post.bos }}</li>
-		<li>Tampa Bay Rays: {{ post.tp }}</li>
+		<li>Tampa Bay Rays: {{ post.tb }}</li>
 		<li>Philadelphia Phillies: {{ post.phi }}</li>
 		<li>Los Angeles Dodgers: {{ post.lad }}</li>
 	</ul>
